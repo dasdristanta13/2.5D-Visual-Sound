@@ -1,0 +1,24 @@
+------------ Options -------------
+audio_length: 0.63
+audio_sampling_rate: 16000
+batchSize: 32
+checkpoints_dir: checkpoints/
+enable_data_augmentation: True
+gpu_ids: [0]
+hdf5FolderPath: None
+hop_size: 0.05
+input_audio_length: 10.0
+input_audio_path: /home/sysadm/Documents/Dristanta_ML_Project/binaural_audios
+isTrain: False
+mode: test
+model: audioVisual
+nThreads: 16
+name: spatialAudioVisual
+output_dir_root: /home/sysadm/Documents/output/
+unet_input_nc: 2
+unet_ngf: 64
+unet_output_nc: 2
+video_frame_path: /home/sysadm/Documents/Dristanta_ML_Project/frames
+weights_audio: /home/sysadm/Documents/Pretrained/audio_model.pth
+weights_visual: /home/sysadm/Documents/Pretrained/visual_model.pth
+-------------- End ----------------
