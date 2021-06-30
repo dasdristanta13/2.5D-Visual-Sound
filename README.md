@@ -1,7 +1,11 @@
 # 2.5D-Visual-Sound
+
+![Image](Image/ML_Project_report.png)
 **Visualising Sound**
 
 This repository is the result of the Machine Learning Project in my 1st year of Master's Degree.
+
+Binaural audio provides a listener with 3D sound sensation, allowing a rich perceptual experience of the scene.However, binaural recordings are scarcely available and require nontrivial expertise and equipment to obtain. We propose to convert common monaural audio into binaural audio by leveraging video.
 
 ## FAIR-Play Dataset
 The [FAIR-Play](https://github.com/facebookresearch/FAIR-Play) repository contains the dataset we collected and used in our paper. It contains 1,871 video clips and their corresponding binaural audio clips recorded in a music room. The code provided can be used to train mon2binaural models on this dataset.
@@ -60,7 +64,7 @@ The paper on which I worked:
           year={2019}
         }
 ```       
-Direct Link to the paper: [[arXiv]](https://arxiv.org/abs/1812.04204)
+Direct Link to the paper: [[Paper]](https://www.cs.utexas.edu/~grauman/papers/CVPR19_2.5d-visual-sound.pdf)
 
 The Dataset link: [[Dataset]](https://github.com/facebookresearch/FAIR-Play)
 
