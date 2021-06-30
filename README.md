@@ -1,5 +1,7 @@
 # 2.5D-Visual-Sound
-Visualising Sound
+**Visualising Sound**
+
+This repository is the result of the Machine Learning Project in my 1st year of Master's Degree.
 
 ## FAIR-Play Dataset
 The [FAIR-Play](https://github.com/facebookresearch/FAIR-Play) repository contains the dataset we collected and used in our paper. It contains 1,871 video clips and their corresponding binaural audio clips recorded in a music room. The code provided can be used to train mon2binaural models on this dataset.
@@ -8,17 +10,16 @@ The [FAIR-Play](https://github.com/facebookresearch/FAIR-Play) repository contai
 ## Working
 (The code has beed tested under the following system environment: ***Ubuntu 20.04 LTS, CUDA 10.2, Python 3.7, PyTorch 1.9.0***)
 
-1. Download the FAIR-Play dataset and prepare the json split using the splitter.py with given root prefixes.
+1. Download the FAIR-Play dataset and prepare the json split using the ***splitter.py*** with given root prefixes.
 
 ```
 python3 splitter.py
-
 ```
 
 
 ### Preprocess
 
-2. To generate frames from each video contained in a folder use the following command:
+2. To generate frames from each video contained in a folder using the ***generate_frames.py***:
 
 ```
 python3 generate_frames.py --folder folderpath/
@@ -49,12 +50,6 @@ python3 evaluate.py --results_root /YOUR_RESULTS --normalization True
 
 ## Acknowlegements
 
-[[arXiv]](https://arxiv.org/abs/1812.04204)  [[Dataset]](https://github.com/facebookresearch/FAIR-Play)<br/>
-
-
-<br/>
-
-
 The paper on which I worked:
 
 ```
@@ -65,6 +60,10 @@ The paper on which I worked:
           year={2019}
         }
 ```       
+Direct Link to the paper: [[arXiv]](https://arxiv.org/abs/1812.04204)
+
+The Dataset link: [[Dataset]](https://github.com/facebookresearch/FAIR-Play)
+
 
 Most portion of the code are adapted from (https://github.com/facebookresearch/2.5D-Visual-Sound)
 
