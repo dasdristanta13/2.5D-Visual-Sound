@@ -44,9 +44,9 @@ python3 demo.py --input_audio_path /BINAURAL_AUDIO_PATH --video_frame_path /VIDE
 ```
 python3 evaluate.py --results_root /YOUR_RESULTS --normalization True
 ```
-## Project Powerpoint
+## Project Report
 
-***ML_Project_report*** Contains the powerpoint I presented.
+***ML_Project_report*** Contains the project report as both Powerpoint and Pdf.
 
 ## Acknowlegements
 
