@@ -12,6 +12,7 @@ The [FAIR-Play](https://github.com/facebookresearch/FAIR-Play) repository contai
 
 
 ## Working
+
 (The code has beed tested under the following system environment: ***Ubuntu 20.04 LTS, CUDA 10.2, Python 3.7, PyTorch 1.9.0***)
 
 1. Download the FAIR-Play dataset and prepare the json split using the ***splitter.py*** with given root prefixes.
@@ -57,12 +58,12 @@ python3 evaluate.py --results_root /YOUR_RESULTS --normalization True
 The paper on which I worked:
 
 ```
-        @inproceedings{gao2019visualsound,
-          title={2.5D Visual Sound},
-          author={Gao, Ruohan and Grauman, Kristen},
-          booktitle={CVPR},
-          year={2019}
-        }
+@inproceedings{gao2019visualsound,
+   title={2.5D Visual Sound},
+   author={Gao, Ruohan and Grauman, Kristen},
+   booktitle={CVPR},
+   year={2019}
+      }
 ```       
 Direct Link to the paper: [[Paper]](https://www.cs.utexas.edu/~grauman/papers/CVPR19_2.5d-visual-sound.pdf)
 
