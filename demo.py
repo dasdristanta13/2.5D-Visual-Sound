@@ -159,8 +159,8 @@ def main():
             os.mkdir(curr_output_dir_root)
         mixed_mono = (audio_channel1 + audio_channel2) / 2
 
-        wavfile.write(os.path.join(opt.output_dir_root, str(a.split(".")[0]) + str(".mp4/") + 'predicted_binaural.wav'),
-                      opt.audio_sampling_rate, predicted_binaural_audio.T)
+        sf.write(os.path.join(opt.output_dir_root, str(a.split(".")[0]) + str(".mp4/") + 'predicted_binaural.wav'),
+                  predicted_binaural_audio.T, opt.audio_sampling_rate, subtype='PCM_24')
         wavfile.write(os.path.join(opt.output_dir_root, str(a.split(".")[0]) + str(".mp4/") + 'mixed_mono.wav'),
                       opt.audio_sampling_rate, mixed_mono.T)
         wavfile.write(os.path.join(opt.output_dir_root, str(a.split(".")[0]) + str(".mp4/") + 'input_binaural.wav'),
